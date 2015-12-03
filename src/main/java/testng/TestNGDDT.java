@@ -28,15 +28,13 @@ public class TestNGDDT {
 		// Create a new instance of the Firefox driver
 		driver = new FirefoxDriver();
 		driver.get("http://dl.dropbox.com/u/55228056/bmicalculator.html");
-		
 	}
   
 	@Test(dataProvider = "testData")
 	public void testBMICalculator(String height, String weight, String bmi, String category) {
 		try {
-			
-			
-			WebElement heightField = driver.findElement(By.name("heightCMS"));
+//			WebElement heightField = driver.findElement(By.name("heightCMS"));
+			WebElement heightField = driver.findElement(By.name("fjdjfdlf"));
 			heightField.clear();
 			heightField.sendKeys(height);
 			
