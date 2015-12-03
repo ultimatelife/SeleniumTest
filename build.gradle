@@ -17,6 +17,7 @@ dependencies {
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
     compile 'org.seleniumhq.selenium:selenium-java:2.48.2'
     compile 'commons-io:commons-io:2.4'
+    compile 'org.testng:testng:6.9.9'
 	
 	testCompile 'junit:junit:4.12'
     testCompile 'org.testng:testng:6.9.9'
@@ -24,7 +25,7 @@ dependencies {
     testCompile 'org.seleniumhq.selenium:selenium-java:2.48.2'
 }
 
-test << {
+test {
 		println "soos"
 		println "soos"
 		println "soos"
